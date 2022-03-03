@@ -59,7 +59,6 @@ const ChatScreen = ({ navigation, route }) => {
       ),
       headerRight: () => (
         <View
-          key={id}
           style={{
             flexDirection: "row",
             justifyContent: "space-between",
